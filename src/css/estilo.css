@@ -1,0 +1,10 @@
+body {
+  background-color: #23272f;
+  color: #f6f7f9;
+}
+
+.item {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}

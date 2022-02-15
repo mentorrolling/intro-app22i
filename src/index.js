@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import "./css/estilo.css";
+
 import App from "./App";
 
 // const elemento = <h1>Hola React!!</h1>;

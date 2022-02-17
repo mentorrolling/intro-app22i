@@ -15,13 +15,7 @@ const Heroes = (props) => {
       <h3>Lista de Héroes</h3>
       <ul>
         {heroes.map((heroe, index) => (
-          <li
-            key={index}
-            className="item"
-            onClick={() => {
-              handleClick(index);
-            }}
-          >
+          <li key={index} className="item" onClick={() => handleClick(index)}>
             {heroe.nombre} -
             <span
               style={{

@@ -1,20 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/estilo.css";
 
 import "bootstrap/dist/js/bootstrap.bundle";
 
 import App from "./App";
-import UserContainer from "./components/UserContainer";
-import Counter from "./components/Counter";
+// import UserContainer from "./components/UserContainer";
+// import Counter from "./components/Counter";
 
 // const elemento = <h1>Hola React!!</h1>;
 
 const contenedor = document.querySelector("#root");
 
-ReactDOM.render(<Counter />, contenedor);
+ReactDOM.render(<App />, contenedor);
 
 //Desestructuracion de arreglos y objetos
 

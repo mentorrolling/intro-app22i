@@ -33,3 +33,7 @@ body {
   margin-bottom: 20px;
   border-radius: 50%;
 }
+
+.card-body {
+  color: black;
+}
